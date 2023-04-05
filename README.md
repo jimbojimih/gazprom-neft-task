@@ -28,10 +28,15 @@
 
 4)Комментарии к выполнению.
 По адресу http://127.0.0.1:8000/category/ можно получить список категорий с количеством цитат по каждой категории  
-![](https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/1.jpg) 
+![](https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/1.jpg)  
+Для каждой страницы с данными настроены слаги, например http://127.0.0.1:8000/wiki/reki/ 
+видим ответ в виде строки
+![](https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/2.jpg)  
+Также по адресу http://127.0.0.1:8000/wiki/reki/?pretty получаем форматированный вывод  
+![](https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/3.jpg)  
 Для каждого объекта данных цитат (quote) можно выполнить запрос с методом PATCH для изменения текста (auxiliary_text), названия (title).
 Например, при отправке PATCH по адрессу http://127.0.0.1:8000/wiki/reki/?pretty с данными:
- 
+ ![](https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/4.jpg)  
 Получаем изменённый обьект с обновлённым слагом (зависит от title) по адрессу 
 http://127.0.0.1:8000/wiki/test/?pretty 
 timestamp обновляется автоматически.
