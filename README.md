@@ -27,8 +27,8 @@
 *файл ruwikiquote-"тут дата"-cirrussearch-general.json положить в корневую папку
 
 4)Комментарии к выполнению.
-По адресу http://127.0.0.1:8000/category/ можно получить список категорий с количеством цитат по каждой категории 
-https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/1.jpg
+По адресу http://127.0.0.1:8000/category/ можно получить список категорий с количеством цитат по каждой категории  
+[https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/1.jpg](https://github.com/jimbojimih/gazprom-neft-task/blob/master/images/1.jpg?raw=true)  
 Для каждого объекта данных цитат (quote) можно выполнить запрос с методом PATCH для изменения текста (auxiliary_text), названия (title).
 Например, при отправке PATCH по адрессу http://127.0.0.1:8000/wiki/reki/?pretty с данными:
  
